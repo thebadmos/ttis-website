@@ -4,3 +4,9 @@
 @import 'tailwindcss/utilities';
 
 
+body{
+    overflow-x: hidden; 
+    font-family: 'MADE TOMMY Outline', sans-serif;
+    font-family: 'MADE TOMMY', sans-serif;
+
+}
