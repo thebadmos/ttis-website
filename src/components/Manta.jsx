@@ -9,6 +9,7 @@ import Trusted from "../assets/Trusted-by.svg";
 import LetMove from "../assets/Letmoveit.svg";
 import Today from "../assets/today.svg";
 import Joint from "../assets/joint.svg";
+import MantraCover from "../assets/mantaCover.svg"
 import styled, { keyframes } from "styled-components";
 import Zoom from "react-reveal/Zoom";
 
@@ -23,7 +24,7 @@ export const Col = styled.div`
 `;
 
 export const Header = styled.h1`
-  ${tw`text-2xl font-bold text-black`}
+  ${tw`text-4xl  text-black`}
 `;
 export const Paragraph = styled.p`
   ${tw`text-lg mt-4 text-black`}
@@ -36,14 +37,16 @@ export default function Manta() {
   }, []);
   return (
     <>
-      <ContentContainer className="bg-white lg:-mt-20 mt-[75px]" id="content2">
+      <ContentContainer className="bg-white lg:mt-6" id="content2">
         <DivContainer id="contentContainer">
           <Col className="relative">
             <div className="lg:my-4 md:ml-4">
-              <Header>Our Manta</Header>
+              <Header className="text-center mantra">Our Mantra
+              </Header>
+              
               <Zoom>
                 <Paragraph
-                  className="flex justify-center items-center py-4"
+                  className="flex justify-center items-center py-4 regular-font"
                   id="header"
                   data-aos="zoom-out-up"
                 >

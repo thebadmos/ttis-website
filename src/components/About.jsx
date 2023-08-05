@@ -24,7 +24,7 @@ const ColFull = styled.div`
 `;
 
 export const Header = styled.h1`
-  ${tw`text-2xl font-bold text-black ml-24`}
+  ${tw`text-3xl font-bold text-black ml-24`}
 `;
 export const Paragraph = styled.p`
   ${tw`text-lg mt-4 text-black`}
@@ -42,9 +42,11 @@ export default function About() {
           <Col className="relative">
             <div className="lg:my-4 md:ml-4">
               <Header>About us</Header>
+             <hr className="border-t-4 w-6 lg:ml-44 border-[#0FA556]"/>
+
               <Fade right>
                 <Paragraph
-                  className="lg:pr-32 py-8 ml-24"
+                  className="lg:pr-32 py-8 ml-24 regular-font"
                   id="header"
                   data-aos="zoom-out-up"
                 >

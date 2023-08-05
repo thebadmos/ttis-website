@@ -25,7 +25,7 @@ export const Col = styled.div`
 `;
 
 export const Header = styled.h1`
-  ${tw`text-2xl font-bold text-black`}
+  ${tw`text-3xl font-bold text-black`}
 `;
 export const Paragraph = styled.p`
   ${tw`text-lg mt-4 text-black`}
@@ -38,14 +38,15 @@ export default function Services() {
   }, []);
   return (
     <>
-      <ContentContainer className="bg-[#FBFBFB] rounded-lg lg:-mt-20 mt-[75px]" id="content2">
+      <ContentContainer className="bg-[#FBFBFB] rounded-lg lg:mt-6" id="content2">
         <DivContainer id="contentContainer">
           <Col className="relative">
             <div className="lg:my-4 md:ml-4">
               <Header>Our Services</Header>
+              <hr className="border-t-4 w-10 border-[#0FA556]"/>
               <Zoom>
                 <Paragraph
-                  className="lg:pr-32 py-4"
+                  className="lg:pr-32 py-4 regular-font"
                   id="header"
                   data-aos="zoom-out-up"
                 >

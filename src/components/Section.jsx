@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Log from "../assets/TTIS.svg";
-import Illustration from "../assets/Illustration.svg"
+import Horizontal from "../assets/horizontal.svg";
+import Illustration from "../assets/Illustration.svg";
 
 import Fade from "react-reveal/Fade";
 import styled, { keyframes } from "styled-components";
@@ -18,7 +18,7 @@ const FlipDiv = styled.div`
 `;
 
 export const ContentContainer = styled.div`
-  ${tw`text-base p-[calc(8px + 1.5625vw)] pb-10 h-[700px]`}
+  ${tw`text-base p-[calc(8px + 1.5625vw)] pb-10 h-[530px]`}
 `;
 export const DivContainer = styled.div`
   ${tw`grid gap-5 lg:gap-0 md:grid-cols-2 lg:grid-cols-2`}
@@ -50,19 +50,24 @@ export default function Content() {
   }, []);
   return (
     <>
-      <ContentContainer className="bg-white lg:-mt-20 mt-[75px]" id="content2">
+      <ContentContainer className="bg-white lg:mt-[-215px] " id="content2">
         <DivContainer id="contentContainer">
           <Col className="relative">
-            <div className="lg:my-56 md:ml-4 ">
+         
+            <div className="lg: md:ml-4 ">
               <div
-                className="lg:pr-32 text-8xl ml-24 mt-4 text-black "
+                className="lg:pr-32 text-8xl ml-32 mt-12 text-black "
                 id="header"
                 data-aos="fade-right"
-                
               >
-                PEOPLE <br/>
-                PROCESS <br/>
+                PEOPLE <br />
+                PROCESS <br />
                 TECHNOLOGY
+                <img
+                  src={Horizontal}
+                  alt="Image"
+                  className="absolute inset-0 w-full h-full"
+                />
                 {/* <p className="-mt-1 text-lg mt-4 text-black">
                   <span className="text-blue md:text-black font-black md:font-normal mr-1">
                     PROCESS
@@ -71,14 +76,11 @@ export default function Content() {
                   transactions.
                 </p> */}
               </div>
-
-             
             </div>
           </Col>
           <ColFull>
             <Zoom>
-              <div className="lg:w-[450px] mt-32" id="illus">
-            
+              <div className="lg:w-[450px] mr-[35px] mt-[-66px]" id="illus">
                 <img
                   src={Illustration}
                   alt="img"

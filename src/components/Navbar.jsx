@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import tw from "twin.macro";
 import styled, { css } from "styled-components";
 import Logo from "./Logo";
+import Corner from "../assets/corner.svg"
 import { Link } from "react-router-dom";
-
+// shadow-md w-4/5 mt-24 fixed top-0 left-0 z-20 bg-[#FAF9F9] py-4 lg:py-4 ml-32 p-[calc(9px + 1.5625vw)] rounded-lg
 const NavbarContainer = styled.div`
-  ${tw`shadow-md w-full fixed top-0 left-0 z-20 bg-[#FAF9F9] py-4 lg:py-4 p-[calc(9px + 1.5625vw)] `}
+  ${tw`w-4/5 mt-24  top-0 left-0 z-20  py-4 lg:py-4 ml-32 p-[calc(9px + 1.5625vw)] ` }
   ${
     "" /* background-color: ${({ theme }) => (theme === "light" ? "white" : "black")};
   color: ${({ theme }) => (theme === "light" ? "black" : "white")} */
@@ -31,8 +32,10 @@ const Nav = () => {
 
   return (
     <>
-      <NavbarContainer>
-        <NavbarAlign className="navBg">
+ 
+      <NavbarContainer className="bg-gift h-96 bg-no-repeat">
+
+        <NavbarAlign className="navBg ">
           <div className="font-medium w-full text-lg text-sm flex justify-between lg:w-full items-center fontFamily-mulish">
             <div className="">
               <Logo />
@@ -59,10 +62,10 @@ const Nav = () => {
               }`}
             >
               <ul
-                className={`text-lg  flex  mt-20 lg:mt-0 flex-col lg:flex-row space-y-5 lg:space-y-0 justify-center ml-[420px] lg:space-x-16 items-center lg:w-full`}
+                className={`text-lg  flex py-12 mt-20 lg:mt-0 flex-col lg:flex-row space-y-5 lg:space-y-0 justify-center lg:ml-[480px] lg:space-x-16 items-center lg:w-full`}
               >
                 {Menu.map(([title, url]) => (
-                  <li key={title} className="">
+                  <li key={title} className="poppins-font">
                     <Link
                       to={url}
                       className="text-slate-500 link hover:text-gray-400 duration-500 hover:border-b-2 border-indigo-500"

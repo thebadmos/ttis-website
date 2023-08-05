@@ -8,5 +8,22 @@ body{
     overflow-x: hidden; 
     font-family: 'MADE TOMMY Outline', sans-serif;
     font-family: 'MADE TOMMY', sans-serif;
+    
 
+}
+.bg-gift{
+    background-image: url("./assets/corner.svg");
+}
+.social{
+    width: 22.44px;
+}
+.regular-font{
+    font-family: sans-serif;
+}
+.mantra{
+    font-family: 'Mea Culpa', sans-serif;                                               
+}
+.poppins-font{
+    font-family: 'Poppins', sans-serif;
+                                                
 }
