@@ -34,7 +34,7 @@ export default function Footer() {
   }, []);
   return (
     <>
-      <ContentContainer className="bg-white lg:-mt-20 mt-[75px]" id="content2">
+      <ContentContainer className="bg-white lg:-mt-20 mt-[75px]" >
         <DivContainer id="contentContainer">
           <Col className="relative">
             <div className="lg:my-4 md:ml-4">
@@ -42,7 +42,7 @@ export default function Footer() {
                 <div class="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
                   <div class="sm:flex sm:items-center sm:justify-between"></div>
 
-                  <div class="grid grid-cols-1 gap-8 border-t border-gray-100 pt-8 sm:grid-cols-2 lg:grid-cols-4 lg:pt-16">
+                  <div class="grid grid-cols-1 gap-8 border-t border-gray-100 pt-8 sm:grid-cols-2 lg:grid-cols-4 lg:pt-16" id="footer">
                     <div>
                       <p class="font-medium text-gray-900">COMPANY</p>
 
@@ -151,7 +151,7 @@ export default function Footer() {
                       </ul>
                     </div>
 
-                    <div className="ml-12">
+                    <div className="ml-12" id="footer-icon">
                       <p class="font-medium text-gray-900"></p>
 
                       <ul class="mt-6 space-y-4 text-sm">

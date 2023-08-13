@@ -56,8 +56,8 @@ export default function Content() {
          
             <div className="lg: md:ml-4 ">
               <div
-                className="lg:pr-32 text-8xl ml-32 mt-12 text-black "
-                id="header"
+                className="lg:pr-32 text-8xl ml-20 mt-12 text-black "
+                id="header-section"
                 data-aos="fade-right"
               >
                 PEOPLE <br />
@@ -65,22 +65,17 @@ export default function Content() {
                 TECHNOLOGY
                 <img
                   src={Horizontal}
-                  alt="Image"
-                  className="absolute inset-0 w-full h-full"
+                  alt="screen"
+                  className="absolute inset-0 w-full h-full "
+                  id="horizontal"
                 />
-                {/* <p className="-mt-1 text-lg mt-4 text-black">
-                  <span className="text-blue md:text-black font-black md:font-normal mr-1">
-                    PROCESS
-                  </span>
-                  helps businesses keep a proper book-keeping of their business
-                  transactions.
-                </p> */}
+             
               </div>
             </div>
           </Col>
           <ColFull>
             <Zoom>
-              <div className="lg:w-[450px] mr-[35px] mt-[-66px]" id="illus">
+              <div className="lg:w-[450px] mr-[-84px] mt-[-64px]" id="illus">
                 <img
                   src={Illustration}
                   alt="img"

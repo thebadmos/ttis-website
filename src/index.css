@@ -14,6 +14,9 @@ body{
 .bg-gift{
     background-image: url("./assets/corner.svg");
 }
+#header-section{
+   font-weight:500;
+}
 .social{
     width: 22.44px;
 }
@@ -27,3 +30,7 @@ body{
     font-family: 'Poppins', sans-serif;
                                                 
 }
+.centered-placeholder::placeholder {
+  padding-top: 10px;
+  padding-left: 15px;
+  }

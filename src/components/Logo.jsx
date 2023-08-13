@@ -9,13 +9,13 @@ export const FlexContainer = styled.div`
   ${tw`cursor-pointer`};
 `;
 const LogoIcon = styled.img`
-  ${tw`lg:w-[95px]   md:w-[9px]  sm:w-[3px] sm:ml-0 lg:ml-5 `};
+  ${tw`lg:w-[95px] md:w-[9px] lg:ml-5 `};
 `;
 
 const Logo = () => (
   <Link to="/">
     <FlexContainer className="" id="logo">
-      <LogoIcon src={Log} alt="logo" id="logo"/>
+      <LogoIcon src={Log} alt="logo" id="mobile-logo"/>
     </FlexContainer>
   </Link>
 );

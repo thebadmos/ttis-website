@@ -15,7 +15,7 @@ import styled, { keyframes } from "styled-components";
 import Zoom from "react-reveal/Zoom";
 
 export const ContentContainer = styled.div`
-  ${tw`text-base p-[calc(8px + 1.5625vw)] pb-10  ml-24`}
+  ${tw`text-base p-[calc(8px + 1.5625vw)] pb-10  ml-20`}
 `;
 export const DivContainer = styled.div`
   ${tw`grid gap-5 lg:gap-0 md:grid-cols-1 lg:grid-cols-1`}
@@ -25,7 +25,7 @@ export const Col = styled.div`
 `;
 
 export const Header = styled.h1`
-  ${tw`text-3xl font-bold text-black`}
+  ${tw`text-2xl font-bold text-black`}
 `;
 export const Paragraph = styled.p`
   ${tw`text-lg mt-4 text-black`}
@@ -38,19 +38,20 @@ export default function Services() {
   }, []);
   return (
     <>
-      <ContentContainer className="bg-[#FBFBFB] rounded-lg lg:mt-6" id="content2">
+      <ContentContainer className="bg-[#FBFBFB] rounded-lg lg:mt-6" id="services">
         <DivContainer id="contentContainer">
           <Col className="relative">
             <div className="lg:my-4 md:ml-4">
-              <Header>Our Services</Header>
+              <Header id="header-services">Our Services</Header>
               <hr className="border-t-4 w-10 border-[#0FA556]"/>
               <Zoom>
                 <Paragraph
+                
                   className="lg:pr-32 py-4 regular-font"
-                  id="header"
+                  id=""
                   data-aos="zoom-out-up"
                 >
-                  <div className="">
+                  <div id="header-services">
                     {" "}
                     Our services are a compilation of a business/product
                     technological development journey. We take a walk through
@@ -62,7 +63,7 @@ export default function Services() {
                   </div>
                 </Paragraph>
               </Zoom>
-              <div class=" grid gap-5 lg:gap-0 md:grid-cols-4 lg:grid-cols-4">
+              <div class=" grid gap-5 lg:gap-0 md:grid-cols-4 lg:grid-cols-4" id="carousel">
                 <div class="p-1">
                   <div class="group relative block overflow-hidden rounded-md transition-all duration-500">
                     <a
@@ -127,12 +128,12 @@ export default function Services() {
                       class="lightbox transition-all duration-500 group-hover:scale-105 tobii-zoom"
                       title=""
                     >
-                      <img src={Analyst} className="h-[335px]" />
+                      <img src={Analyst} className="h-[303px]" alt="analyst" />
                     </a>
                     <div class="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-white dark:bg-[#0FA556] p-4 rounded shadow dark:shadow-gray-700">
                       <a
                         href="#"
-                        class="hover:text-primary-600 text-lg transition duration-500 font-medium"
+                        class="hover:text-primary-600 text-lg transition duration-500 font-medium w"
                       >
                         Business Analytics
                       </a>
@@ -141,7 +142,7 @@ export default function Services() {
                 </div>
               </div>
             </div>
-            <div className="flex justify-center items-center py-4">
+            <div className="flex justify-center items-center py-4" id="indicator">
               <img src={Indicator} />
             </div>
           </Col>

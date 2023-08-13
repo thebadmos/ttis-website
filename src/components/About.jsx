@@ -24,7 +24,7 @@ const ColFull = styled.div`
 `;
 
 export const Header = styled.h1`
-  ${tw`text-3xl font-bold text-black ml-24`}
+  ${tw`text-2xl font-bold text-black ml-20`}
 `;
 export const Paragraph = styled.p`
   ${tw`text-lg mt-4 text-black`}
@@ -37,17 +37,17 @@ export default function About() {
   }, []);
   return (
     <>
-      <ContentContainer className="bg-white lg:-mt-20 mt-[75px]" id="content2">
+      <ContentContainer className="bg-white lg:-mt-20 mt-[75px]" id="about">
         <DivContainer id="contentContainer">
           <Col className="relative">
             <div className="lg:my-4 md:ml-4">
-              <Header>About us</Header>
-             <hr className="border-t-4 w-6 lg:ml-44 border-[#0FA556]"/>
+              <Header id="header-about">About us</Header>
+             <hr className="border-t-4 w-6 lg:ml-40 border-[#0FA556]"/>
 
-              <Fade right>
-                <Paragraph
-                  className="lg:pr-32 py-8 ml-24 regular-font"
-                  id="header"
+              <Fade right class="">
+                <Paragraph 
+                  className="lg:pr-32 py-0 ml-4 lg:ml-20 py-8 regular-font"
+                  id=""
                   data-aos="zoom-out-up"
                 >
                   <div className="">
@@ -56,13 +56,13 @@ export default function About() {
                     provider with a mission to promote a tech inclusive
                     community.
                   </div>
-                  <div className="mt-4 w-[550px]">
+                  <div className="mt-4 lg:w-[550px]">
                     Our drive hinges on the possibility of a digital economy
                     where ‘inclusion’ is prioritized and allows us to proffer,
                     design and build innovative technological systems that are
                     people - purpose centric.
                   </div>{" "}
-                  <div className="mt-4 w-[600px]">
+                  <div className="mt-4 lg:w-[600px]">
                     We believe in the cohesive and agile nature of a system,
                     allowing continuity and quality delivery. That is why at
                     TodayToday innovations and solutions, we see, plan, design,
@@ -74,7 +74,7 @@ export default function About() {
           </Col>
           <ColFull>
             <Zoom>
-              <div className="lg:w-[430px] mt-4">
+              <div className="lg:w-[430px] mt-4" id="about-img">
                 <img
                   src={AboutImg}
                   alt="img"

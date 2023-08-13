@@ -9,7 +9,7 @@ import Trusted from "../assets/Trusted-by.svg";
 import LetMove from "../assets/Letmoveit.svg";
 import Today from "../assets/today.svg";
 import Joint from "../assets/joint.svg";
-import MantraCover from "../assets/mantaCover.svg"
+import MantraCover from "../assets/mantaCover.svg";
 import styled, { keyframes } from "styled-components";
 import Zoom from "react-reveal/Zoom";
 
@@ -37,32 +37,31 @@ export default function Manta() {
   }, []);
   return (
     <>
-      <ContentContainer className="bg-white lg:mt-6" id="content2">
+      <ContentContainer className="bg-white lg:mt-6" id="contact">
         <DivContainer id="contentContainer">
           <Col className="relative">
             <div className="lg:my-4 md:ml-4">
-              <Header className="text-center mantra">Our Mantra
-              </Header>
-              
+              <Header className="text-center mantra">Our Mantra</Header>
+
               <Zoom>
                 <Paragraph
-                  className="flex justify-center items-center py-4 regular-font"
-                  id="header"
+                  className="flex justify-center items-center py-4 regular-font "
+                  id=""
                   data-aos="zoom-out-up"
                 >
-                  <div className="">
+                  <div className="header-mantra">
                     A chair in a room, a room in a house, a house in an
                     environment,an environment in a city plan
                   </div>
                 </Paragraph>
-                <img src={Indicator} />
+                <img src={Indicator} alt="indicator" className="header-mantra"/>
                 <div className="py-4">
-                  <img src={Trusted} />
+                  <img src={Trusted}  alt="indicator" className="header-mantra"/>
 
-                  <div className="flex justify-center items-center py-4">
-                    <img src={LetMove} className="" />
-                    <img src={Today} className="ml-8" />
-                    <img src={Joint} className="ml-8" />
+                  <div className="flex justify-center items-center py-4" id="mantra-width"> 
+                    <img src={LetMove} className=""  alt="indicator"/>
+                    <img src={Today} className="ml-8"  alt="indicator"/>
+                    <img src={Joint} className="ml-8"  alt="indicator"/>
                   </div>
                 </div>
               </Zoom>
@@ -71,7 +70,7 @@ export default function Manta() {
               </div>
               <div
                 class=" flex flex-col 
-                    items-center justify-center"
+                    items-center justify-center header-mantra"
               >
                 <form>
                   <input
@@ -90,18 +89,19 @@ export default function Manta() {
                               py-5 px-4 h-2 border border-gray-200 
                               rounded mb-2"
                   />
+
                   <textarea
                     rows="3"
                     class="text-sm text-gray-base w-full
         
                               mr-3 border 
-                              border-gray-200 rounded mb-2 "
+                              border-gray-200 rounded mb-2  centered-placeholder "
                     placeholder="Comment"
                   ></textarea>
-
-             
                 </form>
-                <button className="flex justify-center items-center py-3 px-12 text-white rounded bg-[#0FA556]">Submit</button>
+                <button className="flex justify-center items-center py-3 px-12 text-white rounded bg-[#0FA556]">
+                  Submit
+                </button>
               </div>
             </div>
           </Col>
