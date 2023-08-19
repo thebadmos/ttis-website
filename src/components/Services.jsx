@@ -6,10 +6,10 @@ import "aos/dist/aos.css";
 
 import Business from "../assets/Business.svg";
 import Analyst from "../assets/Analyst.svg";
+import SeniorAnalyst from "../assets/Analyst2.jpg"
 import Behavior from "../assets/Behavior.svg";
 import Technology from "../assets/Technological.svg";
 import Indicator from "../assets/indicator.svg";
-
 import Fade from "react-reveal/Fade";
 import styled, { keyframes } from "styled-components";
 import Zoom from "react-reveal/Zoom";
@@ -67,15 +67,15 @@ export default function Services() {
                 <div class="p-1">
                   <div class="group relative block overflow-hidden rounded-md transition-all duration-500">
                     <a
-                      href="#"
+                      href="#dd"
                       class="lightbox transition-all duration-500 group-hover:scale-105 tobii-zoom"
                       title=""
                     >
-                      <img src={Business} />
+                      <img src={Business} alt="business" />
                     </a>
                     <div class="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-white dark:bg-[#0FA556] p-4 rounded shadow dark:shadow-gray-700">
                       <a
-                        href="#"
+                        href="#ss"
                         class="hover:text-primary-600 text-lg transition duration-500 font-medium"
                       >
                         Business Modelling
@@ -86,15 +86,15 @@ export default function Services() {
                 <div class="p-1">
                   <div class="group relative block overflow-hidden rounded-md transition-all duration-500">
                     <a
-                      href="#"
+                      href="#dd"
                       class="lightbox transition-all duration-500 group-hover:scale-105 tobii-zoom"
                       title=""
                     >
-                      <img src={Behavior} />
+                      <img src={Behavior} alt="behavior"/>
                     </a>
                     <div class="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-white dark:bg-[#0FA556] p-4 rounded shadow dark:shadow-gray-700">
                       <a
-                        href="#"
+                        href="#dd"
                         class="hover:text-primary-600 text-lg transition duration-500 font-medium"
                       >
                         Behavior Design
@@ -105,15 +105,15 @@ export default function Services() {
                 <div class="p-1">
                   <div class="group relative block overflow-hidden rounded-md transition-all duration-500">
                     <a
-                      href="#"
+                      href="#dd"
                       class="lightbox transition-all duration-500 group-hover:scale-105 tobii-zoom"
                       title=""
                     >
-                      <img src={Technology} />
+                      <img src={Technology} alt="Technology"/>
                     </a>
                     <div class="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-white dark:bg-[#0FA556] p-4 rounded shadow dark:shadow-gray-700">
                       <a
-                        href="#"
+                        href="#dd"
                         class="hover:text-primary-600 text-lg transition duration-500 font-medium"
                       >
                         Technological Inclusion
@@ -124,15 +124,15 @@ export default function Services() {
                 <div class="p-1">
                   <div class="group relative block overflow-hidden rounded-md transition-all duration-500">
                     <a
-                      href="#"
+                      href="#dd"
                       class="lightbox transition-all duration-500 group-hover:scale-105 tobii-zoom"
                       title=""
                     >
-                      <img src={Analyst} className="h-[303px]" alt="analyst" />
+                      <img src={SeniorAnalyst} className=" analyst" alt="analyst"  />
                     </a>
                     <div class="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-white dark:bg-[#0FA556] p-4 rounded shadow dark:shadow-gray-700">
                       <a
-                        href="#"
+                        href="#dd"
                         class="hover:text-primary-600 text-lg transition duration-500 font-medium w"
                       >
                         Business Analytics
@@ -143,7 +143,7 @@ export default function Services() {
               </div>
             </div>
             <div className="flex justify-center items-center py-4" id="indicator">
-              <img src={Indicator} />
+              <img src={Indicator} alt="indicator" />
             </div>
           </Col>
           

@@ -54,7 +54,7 @@ export default function Manta() {
                     environment,an environment in a city plan
                   </div>
                 </Paragraph>
-                <img src={Indicator} alt="indicator" className="header-mantra"/>
+                <img src={Indicator} alt="indicator" className="header-mantra" id="indicator"/>
                 <div className="py-4">
                   <img src={Trusted}  alt="indicator" className="header-mantra"/>
 

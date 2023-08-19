@@ -1,3 +1,30 @@
+/* Target MacBook Pro 13-inch */
+@media screen and (width: 1440px) and (height: 405px) {
+  /* Your CSS styles for MacBook Pro 13-inch screens go here */
+  #nav-container {
+    margin-left: 100px;
+  }
+  #indicator{
+    display: none;
+  }
+  #illus,
+  #about-img {
+    width: 400px;
+    margin-right: 110px;
+    margin-bottom: 55px;
+  }
+  #about-img {
+    width: 380px;
+  }
+  #menu{
+    margin-right: 50px;
+  }
+  .analyst{
+ height: 345px;
+  
+  }
+}
+
 @media (min-width: 355px) and (max-width: 820px) {
   /* body{
     margin-left: 0px;;
@@ -23,15 +50,16 @@
   #content2 {
     height: 450px;
   }
-  #header-services, #footer {
+  #header-services,
+  #footer {
     margin-left: -68px;
   }
-  #footer-icon{
+  #footer-icon {
     margin-left: 6px;
   }
-  #footer{
+  #footer {
     margin-top: -90px;
-  } 
+  }
   #header-about {
     font-size: 25px;
     margin-top: 280px;
@@ -47,14 +75,15 @@
     margin-left: 60px;
     margin-top: 30px;
   }
-  .header-mantra, .mantra {
+  .header-mantra,
+  .mantra {
     margin-left: -58px;
   }
-  #carousel{
+  #carousel {
     margin-left: -48px;
   }
- 
-  #indicator{
+
+  #indicator {
     display: none;
   }
   #illus,
@@ -69,5 +98,7 @@
   .bg-gift {
     background-image: none;
   }
-
+  .analyst{
+    height: 303px;
+  }
 }

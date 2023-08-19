@@ -71,6 +71,7 @@ const Nav = () => {
             >
               <ul
                 className={`text-lg  flex py-12 mt-20 lg:mt-0 flex-col lg:flex-row space-y-5 lg:space-y-0 justify-center lg:ml-[380px] lg:space-x-16 items-center lg:w-full`}
+                 id="menu"
               >
                 {Menu.map(([title, id]) => (
                   <li key={title} className="poppins-font">
