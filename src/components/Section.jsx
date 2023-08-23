@@ -50,13 +50,13 @@ export default function Content() {
   }, []);
   return (
     <>
-      <ContentContainer className="bg-white lg:mt-[-215px] " id="content2">
+      <ContentContainer className="bg-white lg:mt-[215px] " id="content2">
         <DivContainer id="contentContainer">
           <Col className="relative">
          
             <div className="lg: md:ml-4 ">
               <div
-                className="lg:pr-32 text-8xl ml-20 mt-12 text-black "
+                className="lg:pr-32 text-8xl ml-20  text-black "
                 id="header-section"
                 data-aos="fade-right"
               >
@@ -75,7 +75,7 @@ export default function Content() {
           </Col>
           <ColFull>
             <Zoom>
-              <div className="lg:w-[450px] mr-[-84px] mt-[-64px]" id="illus">
+              <div className="lg:w-[450px] mr-[-84px] mt-[-119px]" id="illus">
                 <img
                   src={Illustration}
                   alt="img"

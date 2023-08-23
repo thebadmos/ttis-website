@@ -1,6 +1,6 @@
 /* Target MacBook Pro 13-inch */
-@media screen and (width: 1440px) and (height: 405px) {
-  /* Your CSS styles for MacBook Pro 13-inch screens go here */
+/* @media screen and (width: 1440px) and (height: 405px) {
+
   #nav-container {
     margin-left: 100px;
   }
@@ -23,7 +23,7 @@
  height: 345px;
   
   }
-}
+} */
 
 @media (min-width: 355px) and (max-width: 820px) {
   /* body{

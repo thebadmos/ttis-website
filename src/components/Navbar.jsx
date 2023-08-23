@@ -5,11 +5,8 @@ import Logo from "./Logo";
 import { Link } from "react-router-dom";
 // shadow-md w-4/5 mt-24 fixed top-0 left-0 z-20 bg-[#FAF9F9] py-4 lg:py-4 ml-32 p-[calc(9px + 1.5625vw)] rounded-lg
 const NavbarContainer = styled.div`
-  ${tw` mt-20  top-0 left-0 z-20  py-4 lg:py-4 ml-20 p-[calc(9px + 1.5625vw)] `}
-  ${
-    "" /* background-color: ${({ theme }) => (theme === "light" ? "white" : "black")};
-  color: ${({ theme }) => (theme === "light" ? "black" : "white")} */
-  }
+  // ${tw` mt-20  top-0 left-0 z-20  py-4 lg:py-4 ml-20 p-[calc(9px + 1.5625vw)] `}
+  ${tw`shadow-md w-full fixed top-0 left-0 z-20 bg-[#FAF9F9] lg:py-0 p-[calc(9px + 1.5625vw)] `}
 `;
 
 const NavbarAlign = styled.div`
@@ -41,7 +38,8 @@ const Nav = () => {
 
   return (
     <>
-      <NavbarContainer className="bg-gift h-96 bg-no-repeat" id="nav-container">
+
+      <NavbarContainer>
         <NavbarAlign className="navBg ">
           <div className="font-medium w-full text-lg text-sm flex justify-between lg:w-full items-center fontFamily-mulish">
             <div className="">
@@ -70,14 +68,14 @@ const Nav = () => {
               }`}
             >
               <ul
-                className={`text-lg  flex py-12 mt-20 lg:mt-0 flex-col lg:flex-row space-y-5 lg:space-y-0 justify-center lg:ml-[380px] lg:space-x-16 items-center lg:w-full`}
+                className={`text-lg  flex py-12 mt-20 lg:mt-0 flex-col lg:flex-row space-y-5 lg:space-y-0 justify-center lg:ml-[500px] lg:space-x-16 items-center lg:w-full`}
                  id="menu"
               >
                 {Menu.map(([title, id]) => (
                   <li key={title} className="poppins-font">
                     <Link
                       
-                      className="text-slate-500 link hover:text-gray-400 duration-500 hover:border-b-2 border-indigo-500"
+                      className="text-slate-500 link hover:text-gray-400 duration-500 hover:border-b-2 border-[#0FA556]"
                       to={`#${id}`} // Use the section ID as the href
                       onClick={(e) => {
                         e.preventDefault();

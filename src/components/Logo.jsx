@@ -9,7 +9,7 @@ export const FlexContainer = styled.div`
   ${tw`cursor-pointer`};
 `;
 const LogoIcon = styled.img`
-  ${tw`lg:w-[95px] md:w-[9px] lg:ml-5 `};
+  ${tw`lg:w-[95px] md:w-[9px] lg:ml-20 `};
 `;
 
 const Logo = () => (
