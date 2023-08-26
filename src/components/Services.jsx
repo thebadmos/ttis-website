@@ -5,7 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import Business from "../assets/Business.svg";
-import Analyst from "../assets/analys-t.svg";
+import Analyst from "../assets/Analyst.svg";
 import Behavior from "../assets/Behavior.svg";
 import Technology from "../assets/Technological.svg";
 import Indicator from "../assets/indicator.svg";

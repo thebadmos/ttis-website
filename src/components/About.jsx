@@ -27,7 +27,7 @@ export const Header = styled.h1`
   ${tw`text-2xl font-bold text-black ml-20`}
 `;
 export const Paragraph = styled.p`
-  ${tw`text-lg mt-4 text-black`}
+  ${tw`text-lg text-black`}
 `;
 
 export default function About() {
@@ -46,7 +46,7 @@ export default function About() {
 
               <Fade right class="">
                 <Paragraph 
-                  className="lg:pr-32 py-0 ml-4 lg:ml-20 py-8 regular-font"
+                  className="lg:pr-32 py-0 ml-4 lg:ml-20 py-3 regular-font"
                   id=""
                   data-aos="zoom-out-up"
                 >
