@@ -35,10 +35,10 @@
     height: 30px;
   }
   #toggle-mobile {
-    margin-left: -80px;
+    width: 20px;
   }
   #mobile-logo {
-    width: 66px;
+    width: 106px;
   }
   #header-section,
   #header-about {
@@ -98,7 +98,22 @@
   .bg-gift {
     background-image: none;
   }
-  .analyst{
-    height: 303px;
+ 
+  #trusted-img{
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #contact-us{
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    /* margin-left: auto; */
+    width: 220px;
   }
 }

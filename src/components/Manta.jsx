@@ -56,7 +56,7 @@ export default function Manta() {
                 </Paragraph>
                 <img src={Indicator} alt="indicator" className="header-mantra" id="indicator"/>
                 <div className="py-4">
-                  <img src={Trusted}  alt="indicator" className="header-mantra"/>
+                  <img src={Trusted}  alt="indicator" className="header-mantra" id="trusted-img"/>
 
                   <div className="flex justify-center items-center py-4" id="mantra-width"> 
                     <img src={LetMove} className=""  alt="indicator"/>
@@ -65,11 +65,11 @@ export default function Manta() {
                   </div>
                 </div>
               </Zoom>
-              <div className="flex justify-center items-center py-2">
+              <div className="flex justify-center items-center py-2" id="contact-us">
                 Contact Us
               </div>
               <div
-                class=" flex flex-col 
+                class="py-4 flex flex-col 
                     items-center justify-center header-mantra"
               >
                 <form>

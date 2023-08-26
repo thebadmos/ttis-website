@@ -197,7 +197,7 @@ export default function Footer() {
 
                         <li>
                           <a
-                            href="/"
+                            href="https://www.linkedin.com/company/todaytoday-innovations-and-solutions/"
                             rel="noreferrer"
                             target="_blank"
                             class="text-gray-700 transition hover:opacity-75"

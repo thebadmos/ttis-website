@@ -5,8 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import Business from "../assets/Business.svg";
-import Analyst from "../assets/Analyst.svg";
-import SeniorAnalyst from "../assets/Analyst2.jpg"
+import Analyst from "../assets/analys-t.svg";
 import Behavior from "../assets/Behavior.svg";
 import Technology from "../assets/Technological.svg";
 import Indicator from "../assets/indicator.svg";
@@ -128,7 +127,8 @@ export default function Services() {
                       class="lightbox transition-all duration-500 group-hover:scale-105 tobii-zoom"
                       title=""
                     >
-                      <img src={SeniorAnalyst} className="analyst" alt="analyst" />
+                        <img src={Analyst} alt="Technology"/>
+                
                     </a>
                     <div class="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-white dark:bg-[#0FA556] p-4 rounded shadow dark:shadow-gray-700">
                       <a

@@ -52,7 +52,7 @@ const Nav = () => {
               id="toggle-mobile"
             >
               <svg
-                className={`fill-current h-3 w-3 ${open ? "close" : "menu"}`}
+                className={`fill-current h-6 w-6 ${open ? "close" : "menu"}`}
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
